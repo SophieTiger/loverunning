@@ -18,7 +18,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3  {
+h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -118,8 +118,8 @@ main {
     font-size: 280%;
 }
 
-#benefits-physical>div,
-#benefits-mental>div {
+#benefits-physical > div,
+#benefits-mental > div {
     line-height: 20px;
     margin-bottom: 20px;
 } 
@@ -147,10 +147,10 @@ hr {
     color: #3a3a3a;
 }
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
     /* Header */
     nav {
-        display:block;
+        display: block;
         position: relative;
         box-shadow: none;
         width: fit-content;

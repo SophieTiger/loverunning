@@ -328,6 +328,28 @@ hr {
         column-count: 3;
     }
 
+    /* Form */
+    #signup {
+    background-position: center;
+    position: relative;
+    }
+    
+    #signup-form {
+        position: absolute;
+        top: 150px;
+        left: 10%;
+        max-width: 400px;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
+
 }
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width:992px) {

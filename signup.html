@@ -33,7 +33,35 @@
         </nav>
     </header>
     <!-- Main content -->
-    <main>Main Content</main>
+    <main>
+        <section id="signup">
+            <form action="https://formdump.codeinstitute.net" id="signup-form" method="post">
+                <h2><i class="fa-solid fa-heart-pulse"></i> Let's get you signed up!</h2>
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" class="text-input" name="first_name" required><br>
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" class="text-input" name="last_name" required><br>
+                <label for="email_address">Email Address</label>
+                <input type="email" id="email_address" class="text-input" name="email_address" required><br>
+
+                <div class="radio-buttons">
+                    <div>
+                        <label for="road">Road</label>
+                        <input type="radio" name="running-preference" id="road" value="road" required checked>
+                    </div>
+                    <div>
+                        <label for="trail">Trail</label>
+                        <input type="radio" name="running-preference" id="trail" value="trail" required>
+                    </div>
+                    <div>
+                        <label for="both">Both</label>
+                        <input type="radio" name="running-preference" id="both" value="both" required>
+                    </div>
+                </div>
+                <button type="submit" class="join-button">Let's Run!</button>
+            </form>
+        </section>
+    </main>
     <!-- Footer -->
     <footer>
         <ul id="social-networks">

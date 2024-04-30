@@ -17,6 +17,6 @@ As a <role> I want to <capability> to be able to <goal>
 
 ### Tasks
 
-- [] Task 1
-- [] Task 2
-- [] Task 3
+- [ ] Task 1
+- [ ] Task 2
+- [ ] Task 3
